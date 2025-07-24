@@ -30,7 +30,7 @@ const Skills = () => {
         <div className="overflow-hidden">
           <motion.div
             animate={{ x: ["0%", "-100%"] }}
-            transition={{ repeat: Infinity, duration: 1, ease: "linear" }}
+            transition={{ repeat: Infinity, duration: 9, ease: "linear" }}
             className="flex space-x-8 whitespace-nowrap"
           >
             {[...skills, ...skills].map((skill, index) => (
