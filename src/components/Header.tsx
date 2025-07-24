@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="lg:hidden  flex justify-between items-center fixed top-0 left-0 w-full bg-secondary dark:bg-gray-900 shadow-md z-50 bg-opacity-95 backdrop-blur-sm py-4 px-10">
+      <header className="lg:hidden  flex justify-between items-center fixed top-0 left-0 w-full bg-secondary  shadow-md z-50 bg-opacity-95 backdrop-blur-sm py-4 px-10">
         <a
           href="#hero"
           className="text-2xl font-bold text-purple-700 hover:text-purple-800 transition-colors"
@@ -21,7 +21,7 @@ const Header = () => {
 
         {open && (
           <div
-            className="absolute top-0 left-0 w-64 h-screen bg-secondary dark:bg-gray-900 z-50 p-6"
+            className="absolute top-0 left-0 w-64 h-screen bg-secondary  z-50 p-6"
             onClick={() => setOpen(false)}
           >
             <Navbar />

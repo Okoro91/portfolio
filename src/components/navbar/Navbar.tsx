@@ -11,7 +11,7 @@ const Navbar = () => {
           alt="Profile"
           className="w-24 h-24 rounded-full border-4 border-primary self-end"
         />
-        <h2 className="mt-4 text-lg  dark:text-white font-bold text-purple-700 hover:text-purple-800 transition-colors">
+        <h2 className="mt-4 text-lg   font-bold text-purple-700 hover:text-purple-800 transition-colors">
           Muhammed Ibrahim
         </h2>
         <div className="flex self-end space-x-4 mt-2">
@@ -42,25 +42,25 @@ const Navbar = () => {
       <nav className="mt-10 space-y-4 flex flex-col pl-10">
         <a
           href="#home"
-          className="flex items-center gap-2  dark:text-gray-200   text-gray-700 hover:text-purple-600 transition-colors duration-200 font-medium"
+          className="flex items-center gap-2   text-gray-700 hover:text-purple-600 transition-colors duration-200 font-medium"
         >
           <Home size={20} className="h-5 w-5" /> Home
         </a>
         <a
           href="#about"
-          className="flex items-center gap-2  dark:text-gray-200   text-gray-700 hover:text-purple-600 transition-colors duration-200 font-medium"
+          className="flex items-center gap-2   text-gray-700 hover:text-purple-600 transition-colors duration-200 font-medium"
         >
           <User size={20} /> About
         </a>
         <a
           href="#projects"
-          className="flex items-center gap-2  dark:text-gray-200   text-gray-700 hover:text-purple-600 transition-colors duration-200 font-medium"
+          className="flex items-center gap-2   text-gray-700 hover:text-purple-600 transition-colors duration-200 font-medium"
         >
           <Folder size={20} /> Projects
         </a>
         <a
           href="#contact"
-          className="flex items-center gap-2  dark:text-gray-200   text-gray-700 hover:text-purple-600 transition-colors duration-200 font-medium"
+          className="flex items-center gap-2  text-gray-700 hover:text-purple-600 transition-colors duration-200 font-medium"
         >
           <Mail size={20} /> Contact
         </a>

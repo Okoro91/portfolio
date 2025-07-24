@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <>
-      <section id="about" className="p-20 bg-accent">
+      <section id="about" className="p-5 bg-accent">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <motion.h2
@@ -26,26 +26,13 @@ const About = () => {
             <div className="w-24 h-1.5 bg-purple-600 mx-auto mt-6 rounded-full"></div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center mt-12">
-            <div className="text-lg text-gray-700 leading-relaxed space-y-4">
+            <div className="text-lg text-gray-700 leading-relaxed space-y-4  bg-purple-50 rounded-lg shadow-lg p-8 transform hover:shadow-xl transition-shadow duration-300 ease-in-out">
               <p>
-                Hello! I'm <b>Muhhammed</b>, a fullstack software developer who
-                recently completed an intensive training program at Sail
-                Innovation Lab. My journey into tech began with a curiosity for
-                how digital products are built, and it quickly blossomed into a
-                deep passion for crafting elegant and efficient solutions.
-              </p>
-              <p>
-                At Sail Innovation Lab, I gained hands-on experience across the
-                full development stack, mastering technologies like{" "}
-                <b>React, Node.js, TypeScript, and various databases</b>. I
-                thrive on turning complex problems into clean, user-friendly
-                applications.
-              </p>
-              <p>
-                I am particularly excited about building scalable web services
-                and intuitive user interfaces. I believe in continuous learning,
-                clean code practices, and the power of collaborative teamwork to
-                deliver impactful software.
+                Hi, I'm <b>Muhhammed</b>, a full-stack developer trained at Sail
+                Innovation Lab. I build clean, user-friendly web apps using
+                React, Node.js, and TypeScript. I love writing semantic HTML,
+                building scalable solutions, and working in teams to solve real
+                problems.
               </p>
             </div>
 

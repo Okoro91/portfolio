@@ -1,6 +1,6 @@
 import { FiDownload, FiArrowRight } from "react-icons/fi";
 import { motion } from "framer-motion";
-import img from "../assets/img/coding.jpg";
+import img from "../assets/img/hero_img.gif";
 import cv from "../assets/doc/muhammed_CV.pdf";
 
 const Hero = () => {
@@ -28,7 +28,7 @@ const Hero = () => {
         }
         `}
         </style>
-        <div className="container mx-auto px-4   flex flex-col lg:flex-row items-center ">
+        <div className="container mx-auto px-4  flex flex-col lg:flex-row items-center ">
           <div className="hero-img relative w-1/2 lg:w-[500px] mb-12 lg:mt-0 lg:mr-10 shadow-xl rounded-xl  animate-float">
             <img
               src={img}
