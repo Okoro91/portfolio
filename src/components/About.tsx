@@ -1,29 +1,15 @@
-import { motion } from "framer-motion";
+import SectionHeader from "./common/SectionHeader";
 
 const About = () => {
   return (
     <section id="about" className="p-5 bg-accent">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-3xl md:text-4xl font-bold text-center text-primary mb-8"
-          >
-            About Me
-          </motion.h2>{" "}
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-lg md:text-xl max-w-3xl mx-auto text-center mt-2 text-gray-600"
-          >
-            Discover my journey, skills, and what drives my passion for software
-            development.
-          </motion.p>
-          <div className="w-24 h-1.5 bg-purple-600 mx-auto mt-6 rounded-full"></div>
-        </div>
+        <SectionHeader
+          title="About Me"
+          subtitle=" Discover my journey, skills, and what drives my passion for software
+            development."
+        />
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center mt-12">
           <div className="text-lg text-gray-700 leading-relaxed space-y-4  bg-purple-50 rounded-lg shadow-lg p-8 transform hover:shadow-xl transition-shadow duration-300 ease-in-out">
             <p>
