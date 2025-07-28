@@ -43,7 +43,12 @@ const Contact = () => {
             </button>
           </motion.form>
           <div className="flex flex-wrap justify-center gap-8 mt-12">
-            <div className="bg-accent hover:bg-secondary rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center text-center p-8 w-80">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="bg-accent hover:bg-secondary rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center text-center p-8 w-80"
+            >
               <FiMail size={48} className="text-purple-600 mb-4" />
               <h3 className="text-xl font-bold text-gray-800 mb-2">Email Me</h3>
 
@@ -53,25 +58,35 @@ const Contact = () => {
               >
                 mi.okoro91@gmail.com
               </a>
-            </div>
+            </motion.div>
 
-            <div className="bg-accent hover:bg-secondary  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center text-center p-8 w-80">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="bg-accent hover:bg-secondary  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center text-center p-8 w-80"
+            >
               <FiLinkedin size={48} className="text-purple-600 mb-4" />
               <h3 className="text-xl font-bold text-gray-800 mb-2">
                 Connect on LinkedIn
               </h3>
 
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/mi-okoro/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 border border-purple-500 text-purple-600 hover:bg-purple-50 focus:ring-purple-200 px-4 py-2 text-base"
               >
                 My LinkedIn Profile
               </a>
-            </div>
+            </motion.div>
 
-            <div className="bg-accent hover:bg-secondary  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center text-center p-8 w-80">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              className="bg-accent hover:bg-secondary  rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center text-center p-8 w-80"
+            >
               <FiPhone size={48} className="text-purple-600 mb-4" />
               <h3 className="text-xl font-bold text-gray-800 mb-2">Call Me</h3>
 
@@ -81,7 +96,7 @@ const Contact = () => {
               >
                 +234 812 327 2914
               </a>
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>

@@ -3,9 +3,10 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Soon from "./components/Soon";
+
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import Project from "./components/Project";
 
 const App = () => {
   return (
@@ -16,8 +17,7 @@ const App = () => {
         <Hero />
         <About />
         <Skills />
-        <Soon title="PROJECT" />
-        <Soon title="CONTACT" />
+        <Project />
         <Contact />
         <Footer />
       </main>
