@@ -12,7 +12,7 @@
 
 This is the personal portfolio website of **Muhammed Okoro Ibrahim**, a passionate and results-driven Fullstack Software Developer. This platform serves as a central hub to showcase my skills, projects, and professional journey in software development.
 
-Developed after completing an intensive training program at **Sail Innovation Lab by CcHUB Africa**, this portfolio demonstrates my proficiency in building modern, responsive, and user-centric web applications across the full stack.
+Developed after completing an intensive training program at **Sail Innovation Lab**, this portfolio demonstrates my proficiency in building modern, responsive, and user-centric web applications across the full stack.
 
 -----
 
