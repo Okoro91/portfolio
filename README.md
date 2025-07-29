@@ -3,7 +3,7 @@
 # Muhammed Okoro Ibrahim - Fullstack Software Developer Portfolio
 
 
-\<img width="1344" height="571" alt="image" src="https://github.com/user-attachments/assets/50ec1b85-ffdb-4a22-811c-de4df42923ca" />
+<img width="1344" height="571" alt="image" src="https://github.com/user-attachments/assets/50ec1b85-ffdb-4a22-811c-de4df42923ca" />
 
 
 -----
