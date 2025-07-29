@@ -11,7 +11,7 @@ const Header = () => {
         href="#hero"
         className="text-2xl font-bold text-purple-700 hover:text-purple-800 transition-colors"
       >
-        <h1 className="text-xl font-bold">Muhammed</h1>
+        <h1 className="text-xl font-bold">MI Okoro</h1>
       </a>
 
       <button onClick={() => setOpen(!open)} aria-label="Toggle menu">

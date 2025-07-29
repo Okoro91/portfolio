@@ -37,7 +37,7 @@ const Footer = () => {
             ))}
           </div>
           <p className="text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+            &copy; {new Date().getFullYear()} MI Okoro. All rights reserved.
           </p>
           <p className="text-xs text-gray-500 mt-2">
             Built with React, TypeScript, and Tailwind CSS.
