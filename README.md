@@ -143,6 +143,6 @@ Feel free to connect with me\! I'm always open to discussing new opportunities, 
 
 ## Acknowledgements
 
-  * **Sail Innovation Lab by CcHUB Africa:** For the comprehensive fullstack software development training program.
+  * **Sail Innovation Lab:** For the comprehensive fullstack software development training program.
   * **Freecodecamp, The Odin Project, Scrimba:** For invaluable resources in personal learning and research.
   * **Vite, React, TypeScript, and Tailwind CSS:** For providing excellent tools for modern web development.
