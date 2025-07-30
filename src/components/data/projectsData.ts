@@ -40,7 +40,7 @@ export const projectsData: Project[] = [
     image: recipeFinder,
     technologies: ["React", "Hugging Face API", "Javascript", "Tailwind CSS"],
     githubUrl: "https://github.com/Okoro91/recipe-finder",
-    liveUrl: "https://mi-meme-generator.vercel.app/",
+    liveUrl: "https://mi-recipe-finder.vercel.app/",
   },
   {
     title: "Music App",
