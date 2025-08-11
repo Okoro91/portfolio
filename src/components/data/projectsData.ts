@@ -4,6 +4,7 @@ import piggyvest from "../../assets/img/piggyclone.png";
 import recipeFinder from "../../assets/img/recipe-finder.png";
 import musicApp from "../../assets/img/music-app-lg.png";
 import memeGenerator from "../../assets/img/meme-generator.png";
+import startup from "../../assets/img/startup-api.png";
 
 interface Project {
   title: string;
@@ -32,6 +33,22 @@ export const projectsData: Project[] = [
     technologies: ["React", "Javascript", "Tailwind CSS"],
     githubUrl: "https://github.com/Okoro91/piggyvestreact",
     liveUrl: " https://piggyvestreact.vercel.app/",
+  },
+  {
+    title: "Start Info API",
+    description:
+      "Developed a secure, full-stack RESTful API for startup data, built with Node.js, Express.js, and MongoDB. Features include JWT-based authentication for secure CRUD operations and advanced search functionality, demonstrating expertise in backend development and cloud deployment.",
+    image: startup,
+    technologies: [
+      "Node.js",
+      "Express.js",
+      "MongoDB/Mongoose",
+      "JWT/bcryptjs",
+      "JavaScript",
+      "HTML/Tailwind CSS",
+    ],
+    githubUrl: "https://github.com/Okoro91/startup_info_api",
+    liveUrl: "https://startup-info-api.onrender.com",
   },
   {
     title: "Recipe Finder (AI)",
